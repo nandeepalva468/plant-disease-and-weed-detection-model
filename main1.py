@@ -70,7 +70,7 @@ def main():
 
             # Send Telegram message
             bot_token = "# Replace with your bot token"  
-            chat_id = "1329699944"           # Replace with your chat ID
+            chat_id = "# Replace with your chat ID"    
             message = f"Predicted Class: {predicted_class}\nConfidence: {confidence}%"
             send_telegram_message(bot_token, chat_id, message)
 
